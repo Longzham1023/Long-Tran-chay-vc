@@ -1,0 +1,44 @@
+.container{
+    height: 100vh;
+    flex-direction: row;
+    display: flex;
+    background-color: rgb(252, 252, 252);
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login_container{
+    border: 1px solid silver;
+    padding: 5vh;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 213px;
+    width: 348px;
+    margin-top: 24px;
+    display: flex;
+  }
+  
+  .Login_part{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  .Logo{
+    height: 51px;
+    width: 175px;
+  }
+  
+  .Login_button{
+    background-color: rgb(41, 142, 224);
+    color: white;
+    padding-left: 68px ;
+    padding-right: 68px;
+    border-color:  rgb(41, 142, 224);
+  }
+  
+  .big_picture {
+    margin: 30px;
+  }

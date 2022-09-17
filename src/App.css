@@ -1,0 +1,103 @@
+.container{
+  height: 100vh;
+  flex-direction: row;
+  display: flex;
+  background-color: rgb(252, 252, 252);
+  justify-content: center;
+  align-items: center;
+}
+
+.login_container{
+  
+  padding: 5vh;
+  background-color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 213px;
+  width: 348px;
+  margin-top: 24px;
+  display: flex;
+}
+
+
+.Logo{
+  height: 51px;
+  width: 175px;
+}
+
+.Login_button{
+  background-color: #0095F6;
+  color: white;
+  padding-left: 68px ;
+  padding-right: 68px;
+  border-color:  #0095F6;
+}
+
+
+.picture{
+  margin: 30vh;
+}
+
+.small_picture {
+  margin: 30px;
+  position: relative;
+  right: -200px;
+  bottom: 70px;
+  border: 10px solid;
+  border-radius: 2vh ;
+  
+}
+
+.big_picture{
+  position: absolute;
+  height: 539px;
+  width: 250px;
+  border: 10px solid;
+  border-radius: 2vh ;
+  /* border-image-source: url("https://w7.pngwing.com/pngs/356/499/png-transparent-iphone-x-border-apple-8-apple-x-apple-8plus-thumbnail.png");
+  border-image-slice: 0 0 90%;
+  border-image-width: 20px; */
+  
+}
+
+
+/* login_part */
+
+.login_firstpart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 396px;
+  width: 348px;
+  margin-top: 24px;
+  padding: 2vh;
+  border: 1px solid silver;
+}
+
+.second_part{
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 348px;
+  height: 63px;
+  border: 1px solid silver;
+  padding: 2vh;
+  margin-top: 10px;
+  
+}
+
+.Bottom_part{
+  
+  bottom: 20px;
+  position: absolute;
+  bottom: 20px;
+}
+
+.Ul li{
+  display: inline-table;
+  width: 200px;
+  height: 10px;
+}
